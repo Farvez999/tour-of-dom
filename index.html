@@ -46,7 +46,7 @@
                 <li>Orange</li>
             </ul>
         </section>
-        <section>
+        <section id="places-container">
             <h1>Places I Like</h1>
             <ul>
                 <li class="importent-places">Sundorban</li>
@@ -56,21 +56,22 @@
         </section>
     </main>
     <script src="js/dom.js"></script>
+    <script src="js/styleIn.js"></script>
     <script>
         const liCollaction = document.getElementsByTagName('li');
-        console.log(liCollaction);
+        // console.log(liCollaction);
         for (const li of liCollaction) {
-            console.log(li.innerText);
+            // console.log(li.innerText);
         }
         const h1Collaction = document.getElementsByTagName('h1');
-        console.log(h1Collaction);
+        // console.log(h1Collaction);
         for (const h1 of h1Collaction) {
-            console.log(h1.innerText);
+            // console.log(h1.innerText);
         }
         const fruitsTitle = document.getElementById('fruits-title');
-        console.log(fruitsTitle);
+        // console.log(fruitsTitle);
         const importentPlaces = document.getElementsByClassName('importent-places');
-        console.log(importentPlaces); 
+        // console.log(importentPlaces);
     </script>
 </body>
 
